@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    *border: 1px solid black;
+}
+h1 { 
+    height: 200px; 
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+nav {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: center; 
+}
+
+nav ul li {
+    padding: 0px 10px;
+}
+
+nav ul li a {
+    height: 50px;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav ul li a:hover {
+    color: red;
+    background-color: white;
+}
+
+h2 {
+    font-family: Libre Baskerville;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h3 {
+    font-family: Poppins;
+    color: red;
+    padding-bottom: 10px;
+}
+p {
+    font-family: Poppins;
+}
+
+section {
+padding-top: 20px;
+margin: 0px 150px;
+}
+
+#productos div {
+    height: 300px;
+    width: 150px;
+    display:inline-block;
+    margin-left: 100px;
+}
+
+#perfil{
+    display:flex;
+}
+
+#perfil div {
+    width:60%;
+}
+
+#perfil aside {
+    width:20%;
+}
+
+form {
+    width: 600px;
+    height: 420px;
+    border: 8px solid red;
+    margin: 20px;
+padding: 20px;
+font-family: Libre Baskerville;
+
+}
+
+form div {
+    margin: 10px;
+}
+
+button {
+    background-color: red;
+    color : white;
+    font-size: medium;
+    padding: 4px;
+    font-family: Libre Baskerville;
+    float: right;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    width: 530px;
+    padding: 3px;
+}
